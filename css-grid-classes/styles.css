@@ -13,14 +13,22 @@ body {
   flex-direction: row;
 }
 
-.column {
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-one-fourth {
   width: 25%;
 }
 
-img {
-  width: 270px;
+.column-two-thirds {
+  width: calc(100% / 3 * 2);
 }
 
-div.column > img {
+.image {
   width: 100%;
 }
