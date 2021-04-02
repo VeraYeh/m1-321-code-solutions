@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(247, 248, 250);
+  width: 70vw;
+  min-width: 800px;
+  font-family: 'Barlow', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  width: 85.7%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column-fourth {
+  width: 23%;
+}
+
+.screen {
+  width: 100%;
+}
+
+.icon {
+  width: 23%;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: 800;
+}
+
+h6 {
+  font-size: 12.5px;
+  font-weight: 900;
+  margin: 0.8em 0;
+}
+
+p {
+  font-size: 10.5px;
+  font-weight: 600;
+  margin: 2.25em 0;
+  color: rgb(82, 82, 83);
+}
