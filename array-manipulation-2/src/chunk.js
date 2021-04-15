@@ -1,10 +1,10 @@
 /* exported chunk */
 
 function chunk(array, size) {
-  var Array = [];
+  var newArray = [];
   for (var i = 0; i < array.length; i += size) {
-    var Arrays = array.slice(i, i + size);
-    Array.push(Arrays);
+    var innerArray = array.slice(i, i + size);
+    newArray.push(innerArray);
   }
-  return Array;
+  return newArray;
 }
