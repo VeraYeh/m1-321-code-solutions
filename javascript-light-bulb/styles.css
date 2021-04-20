@@ -1,0 +1,32 @@
+.backgound-on {
+  background-color: rgb(254, 249, 241);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.bulb-on {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(250, 234, 132);
+  box-shadow: 0 10px 10px rgb(254, 243, 197);
+}
+
+.bulb-off {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(37, 37, 37);
+  box-shadow: 0 -10px rgb(11, 11, 11);
+}
+
+.background-off {
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
