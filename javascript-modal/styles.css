@@ -1,47 +1,18 @@
 body {
   height: 100vh;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .open-button {
   background-color: rgb(74, 74, 233);
   color: white;
-  width: 150px;
-  font-size: 18px;
-  padding: 7px 10px;
+  width: 165px;
+  font-size: 20px;
+  padding: 7px;
   border-style: none;
   border-radius: 3px;
   box-shadow: 0 2px 2px grey;
-  cursor: pointer;
-}
-
-fieldset {
-  width: 300px;
-  font-family: inherit;
-  text-align: center;
-  border-radius: 5px;
-  background-color: white;
-  border-style: none;
-}
-
-fieldset > div {
-  margin: 1.75em 0;
-}
-
-fieldset label {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-}
-
-.survey-button {
-  background-color: rgb(234, 92, 92);
-  color: white;
-  font-size: 16px;
-  border-style: none;
-  padding: 7px 25px;
-  border-radius: 3px;
-  box-shadow: 0 2px 2px dimgrey;
   cursor: pointer;
 }
 
@@ -55,6 +26,34 @@ fieldset label {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.modal-window {
+  width: 355px;
+  height: 185px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.modal-window p {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.survey-button {
+  background-color: rgb(234, 92, 92);
+  color: white;
+  border-style: none;
+  font-size: 20px;
+  padding: 7px 27px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px grey;
+  cursor: pointer;
 }
 
 .modal-none {
