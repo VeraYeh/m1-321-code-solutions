@@ -19,21 +19,7 @@ var books = [
 console.log('books array: ', books);
 console.log('type of books array: ', typeof books);
 
-var jsonArray = JSON.stringify({
-  isbn: '2021-00001',
-  title: 'Bad Blood',
-  author: 'John Carreyrou'
-},
-{
-  isbn: '2021-00002',
-  title: 'Born A Crime',
-  author: 'Trevor Noah'
-},
-{
-  isbn: '2021-00002',
-  title: 'The Choice',
-  author: 'Edith Eger'
-});
+var jsonArray = JSON.stringify(books);
 
 console.log('json book array: ', jsonArray);
 console.log('type of jsonArray: ', typeof jsonArray);
